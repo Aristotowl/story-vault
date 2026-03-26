@@ -1,0 +1,11 @@
+{
+  "gatewayUrl": "wss://nexuss-mac-mini.tail1004a0.ts.net",
+  "defaultAgent": "",
+  "lastAgent": "orion",
+  "agentColors": {},
+  "includeVaultContext": true,
+  "includeChatHistory": true,
+  "chatHistoryDepth": 5,
+  "contextSize": "large",
+  "autoConnect": false
+}

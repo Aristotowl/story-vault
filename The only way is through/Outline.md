@@ -3,7 +3,7 @@ age_group: 4-9
 moral_theme: courage, overcoming irrational fear, trusting inner light
 status: outline
 ---
-# The Only Way is Through
+# The Only Way Out is Through
 
 ## Summary
 

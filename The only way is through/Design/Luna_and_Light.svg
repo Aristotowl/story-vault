@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="350" viewBox="0 0 400 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background - dark forest edge with stars -->
+  <defs>
+    <!-- Light's golden glow -->
+    <radialGradient id="lightGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ffcc00;stop-opacity:0.9"/>
+      <stop offset="30%" style="stop-color:#ffaa00;stop-opacity:0.6"/>
+      <stop offset="60%" style="stop-color:#ff7f2a;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#ff7f2a;stop-opacity:0"/>
+    </radialGradient>
+    
+    <!-- Ambient warm light -->
+    <radialGradient id="ambientWarm" cx="75%" cy="50%" r="60%">
+      <stop offset="0%" style="stop-color:#ffcc00;stop-opacity:0.2"/>
+      <stop offset="100%" style="stop-color:#1a1a2e;stop-opacity:0"/>
+    </radialGradient>
+    
+    <!-- Luna's belly gradient -->
+    <radialGradient id="bellyGrad" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" style="stop-color:#ff8080"/>
+      <stop offset="100%" style="stop-color:#d35f5f"/>
+    </radialGradient>
+    
+    <!-- Night sky gradient -->
+    <linearGradient id="nightSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d0d1a"/>
+      <stop offset="100%" style="stop-color:#1a1a2e"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Night sky background -->
+  <rect width="400" height="350" fill="url(#nightSky)"/>
+  
+  <!-- Stars -->
+  <g fill="#ffffff" opacity="0.6">
+    <circle cx="30" cy="25" r="1"/>
+    <circle cx="80" cy="40" r="1.2"/>
+    <circle cx="150" cy="20" r="0.8"/>
+    <circle cx="220" cy="35" r="1"/>
+    <circle cx="300" cy="25" r="1.3"/>
+    <circle cx="350" cy="50" r="1"/>
+    <circle cx="60" cy="60" r="0.7"/>
+    <circle cx="270" cy="55" r="1.1"/>
+    <circle cx="180" cy="15" r="0.9"/>
+  </g>
+  
+  <!-- Dark forest silhouettes -->
+  <g fill="#0d0d1a">
+    <!-- Left side trees -->
+    <path d="M0 350 L0 200 Q20 150 40 200 L40 350 Z"/>
+    <path d="M30 350 L30 180 Q55 120 80 180 L80 350 Z"/>
+    <path d="M70 350 L70 220 Q100 160 130 220 L130 350 Z"/>
+    <!-- Right side darker -->
+    <path d="M300 350 L300 180 Q330 130 360 180 L360 350 Z"/>
+    <path d="M340 350 L340 200 Q370 150 400 200 L400 350 Z"/>
+  </g>
+  
+  <!-- Ground -->
+  <ellipse cx="200" cy="340" rx="220" ry="30" fill="#1a1a2e"/>
+  
+  <!-- Ambient light from Light -->
+  <rect width="400" height="350" fill="url(#ambientWarm)"/>
+  
+  <!-- ===== LIGHT PRESENCE ===== -->
+  <g transform="translate(320, 180)">
+    <!-- Outer glow -->
+    <ellipse cx="0" cy="0" rx="80" ry="100" fill="url(#lightGlow)" opacity="0.8"/>
+    <!-- Inner bright core -->
+    <ellipse cx="0" cy="-10" rx="25" ry="30" fill="#ffcc00" opacity="0.5"/>
+    <!-- Subtle face suggestion -->
+    <ellipse cx="0" cy="-8" rx="22" ry="28" fill="#fff8dc" opacity="0.3"/>
+    <!-- Closed peaceful eyes -->
+    <path d="M-12 0 Q-8 -6 -4 0" stroke="#d48c00" stroke-width="2" fill="none" opacity="0.6"/>
+    <path d="M4 0 Q8 -6 12 0" stroke="#d48c00" stroke-width="2" fill="none" opacity="0.6"/>
+    <!-- Gentle smile -->
+    <path d="M-6 10 Q0 16 6 10" stroke="#d48c00" stroke-width="2" fill="none" opacity="0.5"/>
+  </g>
+  
+  <!-- Light sparkles -->
+  <g fill="#ffcc00">
+    <circle cx="290" cy="130" r="2" opacity="0.7"/>
+    <circle cx="350" cy="160" r="1.5" opacity="0.5"/>
+    <circle cx="300" cy="250" r="2" opacity="0.6"/>
+    <circle cx="360" cy="200" r="1.5" opacity="0.4"/>
+    <circle cx="280" cy="190" r="1" opacity="0.5"/>
+    <circle cx="370" cy="140" r="1.5" opacity="0.6"/>
+  </g>
+  
+  <!-- ===== LUNA (young owlet) ===== -->
+  <g transform="translate(120, 185)">
+    <!-- Body -->
+    <ellipse cx="0" cy="65" rx="42" ry="55" fill="#782121"/>
+    
+    <!-- Chest/belly -->
+    <ellipse cx="0" cy="70" rx="28" ry="38" fill="url(#bellyGrad)"/>
+    
+    <!-- Head -->
+    <circle cx="0" cy="0" r="40" fill="#782121"/>
+    
+    <!-- Ear tufts -->
+    <path d="M-32 -25 L-42 -65 L-18 -30 Z" fill="#782121"/>
+    <path d="M32 -25 L42 -65 L18 -30 Z" fill="#782121"/>
+    <path d="M-30 -30 L-38 -55 L-20 -32 Z" fill="#d38d5f"/>
+    <path d="M30 -30 L38 -55 L20 -32 Z" fill="#d38d5f"/>
+    
+    <!-- Face disk -->
+    <ellipse cx="0" cy="5" rx="30" ry="28" fill="#aa4400"/>
+    
+    <!-- Eye patches -->
+    <circle cx="-12" cy="0" r="14" fill="#ffffff"/>
+    <circle cx="12" cy="0" r="14" fill="#ffffff"/>
+    
+    <!-- Eyes looking toward Light (right) -->
+    <ellipse cx="-9" cy="2" rx="6" ry="8" fill="#000000"/>
+    <ellipse cx="15" cy="2" rx="6" ry="8" fill="#000000"/>
+    
+    <!-- Eye shine -->
+    <circle cx="-11" cy="-1" r="2.5" fill="#ffffff"/>
+    <circle cx="13" cy="-1" r="2.5" fill="#ffffff"/>
+    
+    <!-- Beak -->
+    <path d="M-5 18 L0 28 L5 18 Z" fill="#ffcc00"/>
+    
+    <!-- Feet -->
+    <path d="M-12 115 L-20 135 L-5 135 Z" fill="#ff7f2a"/>
+    <path d="M12 115 L20 135 L5 135 Z" fill="#ff7f2a"/>
+    
+    <!-- Wings -->
+    <path d="M-38 30 Q-55 60 -40 100 Q-25 100 -22 70 Q-27 45 -35 30 Z" fill="#552200"/>
+    <path d="M38 30 Q55 60 40 100 Q25 100 22 70 Q27 45 35 30 Z" fill="#552200"/>
+    
+    <!-- Golden light reflection from Light -->
+    <ellipse cx="25" cy="0" rx="50" ry="65" fill="#ffcc00" opacity="0.12"/>
+  </g>
+  
+  <!-- Light rays from Light to Luna -->
+  <g stroke="#ffcc00" stroke-width="1" opacity="0.25">
+    <line x1="280" y1="160" x2="180" y2="190"/>
+    <line x1="275" y1="185" x2="175" y2="210"/>
+    <line x1="280" y1="210" x2="180" y2="230"/>
+  </g>
+  
+  <!-- Caption -->
+  <text x="200" y="335" font-family="Georgia, serif" font-size="11" text-anchor="middle" fill="#d38d5f" opacity="0.9" font-style="italic">
+    "It is me, Light. I am here to help you."
+  </text>
+</svg>

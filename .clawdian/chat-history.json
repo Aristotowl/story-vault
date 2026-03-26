@@ -1,0 +1,23 @@
+{
+  "messages": [
+    {
+      "agentId": "main",
+      "agentName": "Nexus",
+      "agentEmoji": "🧠",
+      "role": "user",
+      "content": "Hi",
+      "id": "mn4frea86gr1o6p4",
+      "timestamp": 1774345941008
+    },
+    {
+      "agentId": "main",
+      "agentName": "Nexus",
+      "agentEmoji": "🧠",
+      "role": "assistant",
+      "content": "Hey there! 👋 \n\nI see you're reading through Luna's story - that's a beautiful children's book draft about overcoming irrational fear. The concept of teaching kids that fear is a gift and how to help feelings \"flow through\" is really powerful.\n\nWhat would you like to do with this story? I can help you:\n\n- **Continue writing** - pick up from where it left off\n- **Edit/revise** - refine what's already written\n- **Review** - give feedback on pacing, voice, or moral theme delivery\n- **Expand** - flesh out characters or add chapters\n- **Format/structure** - organize into a complete manuscript\n\nJust let me know what you're working toward! 🦉✨",
+      "id": "mn4fri24b3k5xi6j",
+      "timestamp": 1774345945900
+    }
+  ],
+  "lastUpdated": 1774345945900
+}
